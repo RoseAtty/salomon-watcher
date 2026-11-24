@@ -18,7 +18,7 @@ jobs:
 
       - name: Sprawdź dostępność rozmiaru S
         id: watch
-        run: python3 theodderside_watcher.py --test-notify
+        run: python3 theodderside_watcher.py
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
