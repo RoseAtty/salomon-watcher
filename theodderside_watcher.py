@@ -12,8 +12,8 @@ Powiadomienia (działa każdy kanał, który ma ustawione zmienne środowiskowe)
   SMS      : SMSAPI_TOKEN, SMS_TO (np. 48600111222), opcjonalnie SMSAPI_SENDER
 
 Użycie:
-  python3 odderside_watcher.py                # jedno sprawdzenie (tryb dla GitHub Actions)
-  python3 odderside_watcher.py --test-notify  # wysyła testowe powiadomienie
+  python3 theodderside_watcher.py                # jedno sprawdzenie (tryb dla GitHub Actions)
+  python3 theodderside_watcher.py --test-notify  # wysyła testowe powiadomienie
 """
 import json
 import os
